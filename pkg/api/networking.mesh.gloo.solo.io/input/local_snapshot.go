@@ -2042,6 +2042,7 @@ func (i *inMemoryLocalBuilder) insertDestination(
 	ctx context.Context,
 	destination *discovery_mesh_gloo_solo_io_v1_types.Destination,
 	destinationSet discovery_mesh_gloo_solo_io_v1_sets.DestinationSet,
+	buildOpts LocalBuildOptions,
 ) {
 
 	opts := buildOpts.Destinations.ListOptions
